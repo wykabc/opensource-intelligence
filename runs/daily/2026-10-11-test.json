@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-10-11",
+  "executed_at_utc": "2026-10-11T04:34:04.429Z",
+  "task": "daily",
+  "run_type": "manual_dry_run",
+  "status": "partial",
+  "eligible_as_baseline": false,
+  "official_sources": {
+    "github": {
+      "url": "https://github.com/trending?since=daily",
+      "status": "unverified_stale_web_cache",
+      "verified_ranks": 0,
+      "verified_daily_gains": 0
+    },
+    "gitee": {
+      "url": "https://gitee.com/explore",
+      "status": "unavailable",
+      "verified_candidates": 0
+    }
+  },
+  "verified_sample_repositories": [
+    {
+      "id": 1209966933,
+      "repo": "morluto/rea",
+      "stars_total": 76775,
+      "language": "TypeScript",
+      "latest_commit_at": "2026-10-11T04:32:32Z",
+      "commits_last_30d": null,
+      "commits_last_30d_min": 100,
+      "release": "rea-agents-6.4.0"
+    },
+    {
+      "id": 1322250666,
+      "repo": "boykopovar/AnyPS5",
+      "stars_total": 27290,
+      "language": "C++",
+      "latest_commit_at": "2026-10-11T02:53:47Z",
+      "commits_last_30d": null,
+      "commits_last_30d_min": 100,
+      "release": "v0.1.1"
+    },
+    {
+      "id": 476507964,
+      "repo": "storytold/artcraft",
+      "stars_total": 14876,
+      "language": "Rust",
+      "latest_commit_at": "2026-10-10T19:03:53Z",
+      "commits_last_30d": 25,
+      "release": "artcraft-v0.41.0"
+    }
+  ],
+  "actual_recommendations": [],
+  "index_updated": false,
+  "notes": "No official daily ranks verified; sample previews are not official trending recommendations and must not affect 30-day dedup."
+}

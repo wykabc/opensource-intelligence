@@ -30,5 +30,21 @@
     "gvp_snapshot": "gvp/snapshots/YYYY-MM.json",
     "gvp_report": "gvp/reports/YYYY-MM.md",
     "run_log": "runs/{daily|monthly|gvp}/DATE.json"
+  },
+  "sources": {
+    "github_daily": {
+      "url": "https://github.com/trending?since=daily",
+      "list_type": "daily_trending",
+      "ranking": "official source order",
+      "native_24h_star_gain": true
+    },
+    "gitee_hot": {
+      "primary_url": "https://gitee.com/explore/recommend",
+      "supplemental_url": "https://gitee.com/explore/all",
+      "list_type": "official popular projects list",
+      "ranking": "verify actual sort: list position is not a 24h trending rank",
+      "native_24h_star_gain": "not verified; leave null",
+      "note": "Select recently active items only from verified official hot-project pages; compare dated snapshots for star deltas. Never use generic Explore recommendation as official daily trending."
+    }
   }
 }

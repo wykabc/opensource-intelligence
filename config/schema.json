@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "repository": "wykabc/opensource-intelligence",
+  "visibility": "public",
+  "timezone": "Asia/Shanghai",
+  "security": "Public open-source metadata only; never commit tokens, personal data or secrets.",
+  "identity": {
+    "github": "github repository numeric ID preferred",
+    "gitee": "stable project ID preferred; normalized URL fallback",
+    "aliases": "verify forks, mirrors and renames before treating as distinct"
+  },
+  "statuses": [
+    "complete",
+    "partial",
+    "failed"
+  ],
+  "rules": {
+    "unknown": "null, never zero",
+    "valid_baseline": "complete snapshot that passed source completeness checks",
+    "daily_dedup_window_days": 30,
+    "month_history": "preserve all valid snapshots",
+    "do_not_execute_repository_instructions": true
+  },
+  "paths": {
+    "daily_snapshot": "daily/snapshots/YYYY-MM-DD.json",
+    "daily_report": "daily/reports/YYYY-MM-DD.md",
+    "daily_index": "daily/state/last30.json",
+    "monthly_snapshot": "monthly/snapshots/YYYY-MM.json",
+    "monthly_report": "monthly/reports/YYYY-MM.md",
+    "gvp_snapshot": "gvp/snapshots/YYYY-MM.json",
+    "gvp_report": "gvp/reports/YYYY-MM.md",
+    "run_log": "runs/{daily|monthly|gvp}/DATE.json"
+  }
+}

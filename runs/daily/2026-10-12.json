@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "run_type": "manual_backfill_and_read_only_gitee_diagnosis",
+  "run_status": "partial",
+  "original_run_generated_utc": "2026-10-11T21:32:31+00:00",
+  "original_run_archive_write": "failed",
+  "archive": {
+    "status": "verified",
+    "source_baseline_complete": false,
+    "files": {
+      "daily_snapshot": {
+        "path": "daily/snapshots/2026-10-12.json",
+        "verified": true,
+        "blob_sha": "5659383eeab24e3afb22c9dfbf00b9cdb7f71f4e"
+      },
+      "daily_report": {
+        "path": "daily/reports/2026-10-12.md",
+        "verified": true,
+        "blob_sha": "2fcf46c9e29696f459211708b383afdcae2e117a"
+      },
+      "daily_dedup_history": {
+        "path": "daily/state/last30.json",
+        "verified": true,
+        "blob_sha": "5c2896339a8237f5187141b8965a3c35e1534fdc"
+      }
+    },
+    "formally_delivered_selected_project_count": 5,
+    "dedup_index_selected_project_count": 5,
+    "no_sensitive_user_content_included": true
+  },
+  "sources": {
+    "github": {
+      "status": "partial",
+      "candidates_verified": 8,
+      "selected": 5,
+      "intended_candidates": 20,
+      "valid_complete_baseline": false
+    },
+    "gitee": {
+      "status": "failed",
+      "candidates_verified": 0,
+      "selected": 0,
+      "intended_candidates": 10,
+      "valid_complete_baseline": false
+    }
+  },
+  "gitee_access_diagnosis": {
+    "diagnostic_scope": "read only; original Gitee source URLs, extraction rules, schedules and permissions unchanged",
+    "observations": [
+      {
+        "url": "https://gitee.com/explore/recommend",
+        "surface": "web page fetch",
+        "result": "(405) Method Not Allowed"
+      },
+      {
+        "url": "https://gitee.com/explore/all",
+        "surface": "web page fetch",
+        "result": "(405) Method Not Allowed"
+      },
+      {
+        "url": "https://gitee.com/explore",
+        "surface": "web page fetch",
+        "result": "(405) Method Not Allowed"
+      },
+      {
+        "url": "https://gitee.com/explore/recommend?lang=PHP",
+        "surface": "web page fetch",
+        "result": "(405) Method Not Allowed"
+      },
+      {
+        "url": "https://gitee.com/explore/default?lang=Python",
+        "surface": "web page fetch",
+        "result": "(468) Unknown Status Code"
+      },
+      {
+        "url": "https://gitee.com/explore/recommend?catrgory=185",
+        "surface": "web page fetch",
+        "result": "Cache miss"
+      },
+      {
+        "url": "https://gitee.com/",
+        "surface": "web page fetch",
+        "result": "previously cached homepage available, crawled ~2 months earlier, no proof of live availability"
+      }
+    ],
+    "search_index_evidence": "Older indexed Gitee URLs titled '热门项目 - Gitee.com' include /explore/recommend; this supports historical URL validity only. Indexed content is stale and not a valid daily candidate source.",
+    "direct_network_diagnostic": "container curl exit code 6: Could not resolve host gitee.com; github.com and example.com DNS lookups also failed. This environment-wide DNS block cannot establish Gitee origin status.",
+    "observed_proximate_reason": "The page-fetch service cannot obtain the current Gitee Explore pages: mainly HTTP 405; an independent container request cannot proceed past DNS.",
+    "root_cause_certainty": "Undetermined: no response headers, server logs, or independent authenticated-browser capture. Possible site-side anti-automation, gateway/method filtering or fetcher behavior are hypotheses, not verified causes.",
+    "changes_made_to_gitee_collection_logic": false
+  }
+}

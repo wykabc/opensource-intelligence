@@ -1,6 +1,72 @@
 {
   "schema_version": 1,
   "window_days": 30,
-  "updated_at": null,
-  "recommendations": []
+  "updated_at": "2026-10-12",
+  "recommendations": [
+    {
+      "date": "2026-10-12",
+      "platform": "github",
+      "repository": "morluto/rea",
+      "repository_id": 1209966933,
+      "url": "https://github.com/morluto/rea",
+      "source": "GitHub Trending Today (partial capture)",
+      "source_position": 1,
+      "report_path": "daily/reports/2026-10-12.md",
+      "snapshot_path": "daily/snapshots/2026-10-12.json",
+      "archived_formal_selection": true,
+      "eligible_as_complete_baseline": false
+    },
+    {
+      "date": "2026-10-12",
+      "platform": "github",
+      "repository": "boykopovar/AnyPS5",
+      "repository_id": 1322250666,
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "source": "GitHub Trending Today (partial capture)",
+      "source_position": 2,
+      "report_path": "daily/reports/2026-10-12.md",
+      "snapshot_path": "daily/snapshots/2026-10-12.json",
+      "archived_formal_selection": true,
+      "eligible_as_complete_baseline": false
+    },
+    {
+      "date": "2026-10-12",
+      "platform": "github",
+      "repository": "storytold/artcraft",
+      "repository_id": 476507964,
+      "url": "https://github.com/storytold/artcraft",
+      "source": "GitHub Trending Today (partial capture)",
+      "source_position": 3,
+      "report_path": "daily/reports/2026-10-12.md",
+      "snapshot_path": "daily/snapshots/2026-10-12.json",
+      "archived_formal_selection": true,
+      "eligible_as_complete_baseline": false
+    },
+    {
+      "date": "2026-10-12",
+      "platform": "github",
+      "repository": "cathrynlavery/diagram-design",
+      "repository_id": 1212769188,
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "source": "GitHub Trending Today (partial capture)",
+      "source_position": 4,
+      "report_path": "daily/reports/2026-10-12.md",
+      "snapshot_path": "daily/snapshots/2026-10-12.json",
+      "archived_formal_selection": true,
+      "eligible_as_complete_baseline": false
+    },
+    {
+      "date": "2026-10-12",
+      "platform": "github",
+      "repository": "bilawalsidhu/gods-eye-view",
+      "repository_id": 1277471539,
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "source": "GitHub Trending Today (partial capture)",
+      "source_position": 5,
+      "report_path": "daily/reports/2026-10-12.md",
+      "snapshot_path": "daily/snapshots/2026-10-12.json",
+      "archived_formal_selection": true,
+      "eligible_as_complete_baseline": false
+    }
+  ]
 }

@@ -163,5 +163,13 @@
     "complete_baseline_from_prior": null,
     "updated": false
   },
-  "warning": "Positions and star numbers come solely from search-index excerpt of official GitHub Today landing page; exact requested URL returned stale page, so positions are not verified current official rankings. Gitee source not verified. Preserve previous baseline."
+  "warning": "Positions and star numbers come solely from search-index excerpt of official GitHub Today landing page; exact requested URL returned stale page, so positions are not verified current official rankings. Gitee source not verified. Preserve previous baseline.",
+  "archive": {
+    "status": "partial",
+    "snapshot_written": true,
+    "report_written": false,
+    "log_written": true,
+    "dedup_history_updated": false,
+    "report_error": "GitHub connector blocked remote Markdown write; local fallback artifact created."
+  }
 }

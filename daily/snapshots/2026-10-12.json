@@ -196,8 +196,8 @@
       "rank": 5
     }
   ],
-  "dedup_history_committed": false,
+  "dedup_history_committed": true,
   "historical_overlap_rate": null,
   "snapshot_star_net_change": null,
-  "note": "Original partial snapshot archived retrospectively; not a complete baseline. GitHub: 8/20 verified; Gitee: source unavailable. See daily/state/last30.json for confirmed archived recommendations. Historical Star net changes remain unknown."
+  "note": "Retrospectively archived after initial write failure. This partial snapshot contains 8 verified GitHub Today candidates and 0 Gitee candidates. Five formally delivered recommendations were added to 30-day history after report and snapshot read-back verification. Not a complete source baseline. Gitee access diagnostics are in runs/daily/2026-10-12.json."
 }

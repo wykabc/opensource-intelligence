@@ -5,13 +5,24 @@
   "status": "partial",
   "github": {
     "status": "partial",
-    "direct_fresh_trending_verified": false
+    "trending_source": "https://github.com/trending?since=daily",
+    "fresh_direct_page_verified": false,
+    "search_index_excerpt_candidates": 9,
+    "recommended_unranked_candidates": 2
   },
   "gitee": {
     "status": "failed",
-    "fresh_official_hot_list_verified": false
+    "url": "https://gitee.com/explore/recommend",
+    "fresh_page_verified": false
   },
   "archive": {
-    "status": "blocked_or_pending"
-  }
+    "status": "partial",
+    "snapshot": "daily/snapshots/2026-10-13.json",
+    "snapshot_written": true,
+    "report": "daily/reports/2026-10-13.md",
+    "report_written": false,
+    "report_error": "GitHub connected file writer blocked Markdown content via safety checks",
+    "dedup_index_updated": false
+  },
+  "warning": "No verified complete source baseline. No changes to source fetch configurations or schedule. Both data sources lack a directly verified fresh listing."
 }

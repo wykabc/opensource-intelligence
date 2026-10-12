@@ -18,7 +18,7 @@
       "daily_report": {
         "path": "daily/reports/2026-10-12.md",
         "verified": true,
-        "blob_sha": "2fcf46c9e29696f459211708b383afdcae2e117a"
+        "blob_sha": "534dbc466c78785f081d7da6d74d79fd1cf387dc"
       },
       "daily_dedup_history": {
         "path": "daily/state/last30.json",
@@ -28,7 +28,8 @@
     },
     "formally_delivered_selected_project_count": 5,
     "dedup_index_selected_project_count": 5,
-    "no_sensitive_user_content_included": true
+    "no_sensitive_user_content_included": true,
+    "final_report_reconciled": true
   },
   "sources": {
     "github": {

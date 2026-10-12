@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-13",
+  "timezone": "Asia/Shanghai",
+  "status": "partial",
+  "github": {
+    "status": "partial",
+    "direct_fresh_trending_verified": false
+  },
+  "gitee": {
+    "status": "failed",
+    "fresh_official_hot_list_verified": false
+  },
+  "archive": {
+    "status": "blocked_or_pending"
+  }
+}

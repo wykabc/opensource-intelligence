@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "month": "2026-10",
+  "status": "failed",
+  "source": "https://github.com/trending?since=monthly",
+  "reason": "Source page stale; no current ranking verified.",
+  "valid_baseline": false,
+  "count": null,
+  "report": "monthly/reports/2026-10.md"
+}

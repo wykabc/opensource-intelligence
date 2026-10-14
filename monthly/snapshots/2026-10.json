@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "month": "2026-10",
+  "source_url": "https://github.com/trending?since=monthly",
+  "period_type": "rolling_month",
+  "captured_at_utc": "2026-10-14T21:57:42Z",
+  "status": "failed",
+  "valid_baseline": false,
+  "official_current_page_verified": false,
+  "projects": null,
+  "count": null,
+  "diagnostics": {
+    "web_source": "official GitHub Trending URL",
+    "web_cache_freshness": "last month (unfit for 2026-10-15 reporting)",
+    "rejected_stale_cache_item_count": 23,
+    "crosschecks": [
+      {
+        "repo": "tt-a1i/archify",
+        "cache_stars": 58802,
+        "current_api_stars": 83488
+      },
+      {
+        "repo": "omacom/omarchy",
+        "cache_stars": 40392,
+        "current_api_stars": 44835
+      }
+    ],
+    "direct_connection": "DNS resolution failure from execution container",
+    "variant_urls": "stale or cache miss / robots restriction",
+    "previous_valid_monthly_snapshot": false
+  },
+  "notes": "Do not treat this as complete, as the month's ranking, or as an eligible comparison baseline; null means unknown, never zero."
+}

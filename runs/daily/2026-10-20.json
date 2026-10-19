@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "observed_at": "2026-10-20T05:32:42+08:00",
+  "run_status": "failed",
+  "sources": {
+    "github": {
+      "status": "failed",
+      "official_url": "https://github.com/trending?since=daily",
+      "failure": "stale web cache (crawled 2 months ago)",
+      "verified_candidates": 0
+    },
+    "gitee": {
+      "status": "failed",
+      "official_url": "https://gitee.com/explore/recommend",
+      "supplemental_url": "https://gitee.com/explore/all",
+      "failure": "Internal Error for both URLs",
+      "verified_candidates": 0
+    }
+  },
+  "history": {
+    "state_read": "success",
+    "prior_formal_recommendations": 5,
+    "new_recommendations": 0,
+    "updated": false,
+    "reason": "zero source-verified selections"
+  },
+  "archive": {
+    "snapshot": {
+      "path": "daily/snapshots/2026-10-20.json",
+      "status": "verified"
+    },
+    "report": {
+      "path": "daily/reports/2026-10-20.md",
+      "status": "blocked_by_safety_checks",
+      "remote_verified": false,
+      "local_fallback": "opensource_daily_2026-10-20.md"
+    },
+    "run_log": {
+      "status": "pending"
+    },
+    "state": {
+      "path": "daily/state/last30.json",
+      "status": "unchanged"
+    }
+  },
+  "baseline_valid": false,
+  "overlap_rate": null,
+  "star_net_delta": null,
+  "changes_to_task_configuration": false,
+  "note": "No stale or substitute list has been accepted. The source failure is not evidence that no new open-source activity occurred."
+}

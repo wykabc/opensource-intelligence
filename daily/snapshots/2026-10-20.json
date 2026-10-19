@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-20",
+  "time_zone": "Asia/Shanghai",
+  "observed_at": "2026-10-20T05:32:42+08:00",
+  "status": "failed",
+  "eligible_as_complete_baseline": false,
+  "baseline_type": null,
+  "observation_note": "Both official source pages could not be verified as current. No repository candidate was accepted from stale snippets or alternate lists.",
+  "github": {
+    "status": "failed",
+    "source_url": "https://github.com/trending?since=daily",
+    "source_page_title": "Trending repositories on GitHub today",
+    "date_range_label": "Today",
+    "fetch_result": "web viewer rendered a page marked Crawled: 2 months ago",
+    "freshness_verified": false,
+    "intended_candidates": 20,
+    "verified_candidates": 0,
+    "selected_count": 0,
+    "ranking_verified": false,
+    "native_24h_stars_verified": false,
+    "sorting_basis": "GitHub official daily list order if a fresh page can be obtained; not verified this run",
+    "previous_complete_baseline_used": false
+  },
+  "gitee": {
+    "status": "failed",
+    "primary_url": "https://gitee.com/explore/recommend",
+    "supplemental_url": "https://gitee.com/explore/all",
+    "primary_fetch_error": "Internal Error",
+    "supplemental_fetch_error": "Internal Error",
+    "independent_network_attempt": "Container DNS resolution failed for github.com and gitee.com; cannot infer source-site outage.",
+    "page_title_verified": false,
+    "sorting_basis": null,
+    "page_updated_at": null,
+    "intended_candidates": 10,
+    "verified_candidates": 0,
+    "selected_count": 0,
+    "native_24h_stars_verified": false,
+    "previous_complete_baseline_used": false
+  },
+  "candidates": [],
+  "selected_projects": [],
+  "daily_dedup": {
+    "history_read_succeeded": true,
+    "history_repository": "wykabc/opensource-intelligence",
+    "history_path": "daily/state/last30.json",
+    "history_archive_record_count": 5,
+    "excluded_duplicate_candidates": 0,
+    "exceptional_reposts": 0,
+    "new_formal_recommendations": 0,
+    "index_update_required": false
+  },
+  "comparison": {
+    "previous_complete_source_snapshots_available_for_comparison": false,
+    "accessible_dated_snapshots_reviewed": [
+      "2026-10-12",
+      "2026-10-13",
+      "2026-10-15"
+    ],
+    "reviewed_snapshot_statuses": [
+      "partial",
+      "partial",
+      "partial"
+    ],
+    "overlap_count": null,
+    "overlap_rate": null,
+    "snapshot_star_net_change": null
+  },
+  "archive": {
+    "report_status": "pending",
+    "snapshot_status": "pending",
+    "run_log_status": "pending",
+    "history_index_status": "unchanged"
+  },
+  "sources": [
+    {
+      "url": "https://github.com/trending?since=daily",
+      "result": "stale_cache",
+      "observed_crawl_age": "2 months"
+    },
+    {
+      "url": "https://gitee.com/explore/recommend",
+      "result": "Internal Error"
+    },
+    {
+      "url": "https://gitee.com/explore/all",
+      "result": "Internal Error"
+    }
+  ],
+  "security_note": "No credentials, private data, or untrusted web instructions included."
+}

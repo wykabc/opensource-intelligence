@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "timezone": "Asia/Shanghai",
+  "status": "failed",
+  "eligible_as_complete_baseline": false,
+  "github": {
+    "status": "failed",
+    "source_url": "https://github.com/trending?since=daily",
+    "ranking_basis": "official daily order",
+    "page_crawled": "last month",
+    "freshness_verified": false,
+    "intended_candidates": 20,
+    "verified_candidates": 0,
+    "rank_verified": false,
+    "native_24h_star_gain_verified": false,
+    "prior_complete_snapshot": null
+  },
+  "gitee": {
+    "status": "failed",
+    "primary_url": "https://gitee.com/explore/recommend",
+    "supplemental_url": "https://gitee.com/explore/all",
+    "primary_error": "HTTP 405",
+    "supplemental_error": "HTTP 405",
+    "sort_basis": null,
+    "page_updated_at": null,
+    "intended_candidates": 10,
+    "verified_candidates": 0,
+    "prior_complete_snapshot": null
+  },
+  "candidates": [],
+  "selected_projects": [],
+  "selected_count": 0,
+  "dedup": {
+    "source": "daily/state/last30.json",
+    "history_read_successfully": true,
+    "prior_formal_picks": 5,
+    "removed_from_candidates": 0,
+    "repeated_recommendations": 0,
+    "index_changed": false
+  },
+  "comparison": {
+    "candidate_overlap_rate": null,
+    "star_net_change": null
+  },
+  "diagnostic": "Direct network requests failed at DNS resolution. Zero verified candidates reflects capture failure, not empty source lists."
+}

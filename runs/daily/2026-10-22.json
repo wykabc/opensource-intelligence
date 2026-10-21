@@ -32,19 +32,20 @@
   "archive": {
     "daily_snapshot": {
       "path": "daily/snapshots/2026-10-22.json",
-      "write_status": "blocked_by_connector_safety_check",
-      "readback_verified": false
+      "write_status": "verified",
+      "readback_verified": true
     },
     "daily_report": {
       "path": "daily/reports/2026-10-22.md",
-      "write_status": "blocked_by_connector_safety_check",
-      "readback_verified": false
+      "write_status": "verified",
+      "readback_verified": true
     },
     "run_log": {
       "path": "runs/daily/2026-10-22.json",
-      "write_status": "pending_self_write",
-      "readback_verified": false
-    }
+      "write_status": "verified",
+      "readback_verified": true
+    },
+    "overall": "verified"
   },
   "eligible_as_complete_baseline": false,
   "changed_collection_rules": false

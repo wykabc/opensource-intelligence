@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "timezone": "Asia/Shanghai",
+  "run_type": "scheduled_daily",
+  "status": "failed",
+  "checked_at_beijing": "2026-10-22T05:30:18+08:00",
+  "source_status": {
+    "github": {
+      "status": "failed",
+      "verified_candidates": 0,
+      "requested_candidates": 20,
+      "url": "https://github.com/trending?since=daily",
+      "fetch_result": "Crawled: last month (stale)",
+      "independent_curl": "DNS resolution failure"
+    },
+    "gitee": {
+      "status": "failed",
+      "verified_candidates": 0,
+      "requested_candidates": 10,
+      "primary_url": "https://gitee.com/explore/recommend",
+      "supplemental_url": "https://gitee.com/explore/all",
+      "fetch_result": "both HTTP 405",
+      "independent_curl": "DNS resolution failure"
+    }
+  },
+  "selected_count": 0,
+  "dedup_read": true,
+  "existing_archived_picks": 5,
+  "new_formal_recommendations": 0,
+  "dedup_updated": false,
+  "archive": {
+    "daily_snapshot": {
+      "path": "daily/snapshots/2026-10-22.json",
+      "write_status": "blocked_by_connector_safety_check",
+      "readback_verified": false
+    },
+    "daily_report": {
+      "path": "daily/reports/2026-10-22.md",
+      "write_status": "blocked_by_connector_safety_check",
+      "readback_verified": false
+    },
+    "run_log": {
+      "path": "runs/daily/2026-10-22.json",
+      "write_status": "pending_self_write",
+      "readback_verified": false
+    }
+  },
+  "eligible_as_complete_baseline": false,
+  "changed_collection_rules": false
+}

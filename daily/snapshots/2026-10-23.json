@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-23",
+  "timezone": "Asia/Shanghai",
+  "status": "failed",
+  "eligible_as_complete_baseline": false,
+  "github": {
+    "status": "failed",
+    "source_url": "https://github.com/trending?since=daily",
+    "ranking_basis": "official daily order, only if source verified",
+    "fetch_results": {
+      "web": "restricted URL; no list returned",
+      "independent_request": "DNS name resolution failure",
+      "search": "no fresh official daily page verified"
+    },
+    "page_crawled": null,
+    "freshness_verified": false,
+    "intended_candidates": 20,
+    "verified_candidates": 0,
+    "rank_verified": false,
+    "native_24h_star_gain_verified": false,
+    "prior_complete_snapshot": null
+  },
+  "gitee": {
+    "status": "failed",
+    "primary_url": "https://gitee.com/explore/recommend",
+    "supplemental_url": "https://gitee.com/explore/all",
+    "primary_error": "web HTTP 405 Method Not Allowed; independent DNS name resolution failed",
+    "supplemental_error": "web HTTP 405 Method Not Allowed; independent DNS name resolution failed",
+    "page_title_verified": false,
+    "sort_basis": null,
+    "page_updated_at": null,
+    "intended_candidates": 10,
+    "verified_candidates": 0,
+    "prior_complete_snapshot": null
+  },
+  "candidates": [],
+  "selected_projects": [],
+  "selected_count": 0,
+  "dedup": {
+    "source": "daily/state/last30.json",
+    "history_read_successfully": true,
+    "prior_formal_picks": 5,
+    "removed_from_candidates": 0,
+    "repeated_recommendations": 0,
+    "index_changed": false
+  },
+  "comparison": {
+    "candidate_overlap_rate": null,
+    "star_net_change": null
+  },
+  "diagnostics": {
+    "attempted": "2026-10-23 Asia/Shanghai",
+    "web_gh": "Failed to fetch restricted URL",
+    "web_gitee": "HTTP 405",
+    "independent_direct_request": "both domains DNS resolution failure",
+    "note": "Cannot verify current official lists; observed zero candidates means fetch failed, not empty rankings. No data from third-party mirror accepted."
+  },
+  "archival": {
+    "snapshot": "pending verification",
+    "report": "pending",
+    "run_log": "pending"
+  }
+}
